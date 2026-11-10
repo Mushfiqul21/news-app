@@ -1,0 +1,23 @@
+# --- General ---
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+
+# --- Laravel (Backend) ---
+/backend/vendor/
+/backend/node_modules/
+/backend/public/build/
+/backend/storage/*.key
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/.phpunit.result.cache
+
+# --- Next.js (Frontend) ---
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+/frontend/.vercel
